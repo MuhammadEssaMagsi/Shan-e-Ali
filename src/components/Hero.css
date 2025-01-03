@@ -1,0 +1,103 @@
+.hero-section {
+    flex-direction: column;
+    height: 100vh;
+}
+.hero-content {
+    width: 100%;
+    min-height: 50vh;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-items: center;
+    background-color: black;
+}
+.hero-content h1 {
+    width: 80%;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-content p {
+    font-family: 18px;
+    margin: 10px 0;
+}
+
+.hero-content button {
+    background: linear-gradient(135deg, #4B0082, #221eff); /* Black to Purple to Blue */
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    transition: 0.2s ease-in-out all;
+    opacity: 0.8;
+}
+.hero-content button:hover {
+    transform: rotate(3deg);
+    scale: 1.04;
+    opacity: 1;
+}
+.hero-content button:active {
+    transform: rotate(0deg);
+    scale: 0.9;
+    opacity: 0.5;
+}
+.hero-character {
+    overflow: hidden;
+    min-height: 50vh;
+    width: 100%;
+    background-color: black;
+    padding: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.hero-character img {
+    /* width: 100%; */
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (min-width: 600px){
+    .hero-section {
+        flex-direction: row;
+        padding: 0;
+    }
+    .hero-content {
+        height: 100%;
+        width: 50%;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .hero-content h1 {
+        width: 100%;
+        text-align: left;
+        font-size: 5vw;
+    }
+    .hero-content hr {
+        display: none;
+    }
+    .hero-content p {
+        width: 100%;
+        font-size: 2vw;
+    }
+    .hero-content button {
+        float: left;
+    }
+    .hero-character {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+    }
+    .hero-character img {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

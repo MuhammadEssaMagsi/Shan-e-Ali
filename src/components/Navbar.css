@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+header .navbar {
+width: 100%;
+height: 100%;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+header .navbar .navbar-logo img{
+    height: 50px;
+}
+header .navbar .navbar-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+header .navbar .navbar-links .navbar-link i {
+    font-size: 20px;
+    color: #cccccc; 
+}
+header .navbar .navbar-links .navbar-link span {
+    display: none;
+}
+
+@media only screen and (min-width: 600px){
+    /* Tablets */
+    header {
+        display: flex;
+        justify-content: center;
+        border: none;
+        height: 80px;
+    }
+    header .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 20px;
+
+        /* glassmorpic bg */
+        /* background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #ffffff; */
+    
+        /* Neon Purple */
+        /* background: #4B0082;
+        box-shadow: 0 4px 15px rgba(75, 0, 130, 0.5);
+        color: #ffffff; */
+    
+        /* Gradient Bar */
+        background: linear-gradient(90deg, #4B0082, #1E90FF);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    
+        /* Metallic black */
+        /* background: #1a1a1a;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+        color: #cccccc;  */
+    
+        /* Electric Blue */
+        /* background: #1E90FF;
+        box-shadow: 0 0 10px #1E90FF;
+        color: #000000; */
+    }
+    .navbar .navbar-logo img {
+        height: 30px !important;
+    }
+    .navbar-links {
+        /* height: 50px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px !important;
+    }
+    .navbar-links .navbar-link {
+        color: white;
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    .navbar-links .navbar-link i {
+        font-size: 16px !important;
+    }
+    .navbar-links .navbar-link:hover {
+        color: #1E90FF; /* Electric blue hover effect */
+    }
+    .navbar-links .navbar-link:hover i{
+        color: #1E90FF !important; /* Electric blue hover effect */
+    }
+    header .navbar .navbar-links .navbar-link span {
+        display: inline;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px){} */

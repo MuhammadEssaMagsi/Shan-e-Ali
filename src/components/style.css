@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    /* Full-screen background */
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #000000, #4B0082, #1E90FF); /* Black to Purple to Blue */
+    background-size: 200% 200%; /* Enlarged to allow animation */
+    animation: gradient-animation 10s ease infinite;
+    color: #ffffff; /* White text for contrast */
+    overflow-x: hidden;
+  }
+  /* Animation for gradient movement */
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  

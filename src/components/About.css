@@ -1,0 +1,43 @@
+.about-me {
+    flex-direction: column;
+    background-color: black;
+    /* height: 100vh; */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    padding: 50px;
+    text-align: left;
+    line-height: 30px;
+}
+.about-me h2 {
+    font-size: 36px;
+}
+.about-me p {
+    font-size: 18px;
+}
+
+.offers {
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 40px;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), 
+    url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-start !important;
+}
+
+.offers ul {
+    list-style-type: '⚡ ';
+}
+.offers ul li {
+    margin: 10px auto;
+}
+li strong {
+    color: #221eff;
+}
