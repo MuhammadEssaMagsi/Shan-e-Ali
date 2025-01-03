@@ -22,16 +22,15 @@ With expertise in cash cow videos, long-form content, short videos, reels, showr
           <li><strong>Long Videos:</strong> Seamless editing for documentaries, interviews, and extended content.</li>
           <li><strong>Short Videos & Shorts:</strong> Perfect for grabbing attention on platforms like YouTube and TikTok.</li>
           <li><strong>Reels & Showreels:</strong> Highlight your best moments with a professional touch.</li>
-          <li><strong>Video Recording & Effects:</strong> From capturing raw footage to adding cinematic effects, I handle it all.</li>
         </ul>
       {/* </section> */}
       {/* <section className="section tools"> */}
         <h3>TOOLS OF THE TRADE</h3>
         <p>I use industry-leading tools to ensure top-notch quality:</p>
         <ul>
-          <li><strong>CapCut: </strong>Quick, efficient editing for trendy, engaging content.</li>
-          <li><strong>Adobe Premiere Pro: </strong>The gold standard for professional video editing.</li>
           <li><strong>After Effects: </strong>Adding breathtaking animations, visual effects, and motion graphics.</li>
+          <li><strong>Adobe Premiere Pro: </strong>The gold standard for professional video editing.</li>
+          <li><strong>CapCut: </strong>Quick, efficient editing for trendy, engaging content.</li>
         </ul>
 
         <h3>LETS CREATE SOMETHING AMAZING</h3>

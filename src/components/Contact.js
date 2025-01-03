@@ -8,7 +8,7 @@ function Contact(){
       <Navbar />
       <section className="section contact">
         <h2>GET IN TOUCH</h2>
-      <form action="https://formspree.io/f/xqakkrzp" method="POST">
+      <form action="https://formspree.io/f/mgvvpaka" method="POST">
         <input type="text" id="name" name="name" required placeholder="Name" />
       
         <input type="email" id="email" name="email" required placeholder="Email" />
